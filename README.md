@@ -4,4 +4,3 @@
 - ./Seq-poison: Our model for fake sequence generating.
     - ./main.py: the overall architecture of our model, including Part A, Part B, and Part C.
     - ./Bi_classifier model: binary classifier in Part B, which is pre_trained and fixed.
-    - ./output: the output model.
