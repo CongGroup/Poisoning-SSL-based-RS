@@ -9,17 +9,15 @@ The poisoning data was generated with our scheme.
 For each dataset, we generated fake users accounting for 1%, 2%, and 3% of the original data. 
 
 ### Seq-poison
-Our model for fake sequence generating.
+Our model for fake user generating.
 #### Run
-For simplicity, here we take *Beauty* as an example.
-
 Create bi-classifier:
   
 ```
 python train_classify.py
 ```
 
-Now we get the bi-classifier model *Beauty_bi_classify.pt*.
+Now we get the bi-classifier model *{data_name}_bi_classify.pt*.
 
 Train the generator that generates fake users:
 
