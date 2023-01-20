@@ -3,11 +3,6 @@ Pre-processed user-item interaction records obtained by the original data downlo
 
 We use the “5-core” datasets as described in our paper.
 
-### Poisoned_datasets
-The poisoning data was generated with our scheme. 
-
-For each dataset, we generated fake users accounting for 1%, 2%, and 3% of the original data. 
-
 ### Seq-poison
 Our model for fake user generating.
 #### Run
