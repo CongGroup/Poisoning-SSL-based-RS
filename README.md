@@ -7,7 +7,7 @@ For each dataset, we generatd fake users whose numbers are 1%, 2%, and 3% of rea
 Our model for fake user generating.
 
 #### datasets
-Original pre-processed user-item interaction records obtained by the original data downloaded from [Google Drive](https://drive.google.com/drive/folders/1ahiLmzU7cGRPXf5qGMqtAChte2eYp9gI). 
+Original pre-processed user-item interaction records obtained by the data downloaded from [Google Drive](https://drive.google.com/drive/folders/1ahiLmzU7cGRPXf5qGMqtAChte2eYp9gI) (this is a public dataset). 
 
 We use the “5-core” datasets as described in our paper.
 
