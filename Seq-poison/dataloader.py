@@ -71,7 +71,7 @@ class DisDataset(Dataset):
         label = torch.LongTensor([pair[1]])
         return data, label
 
-
+# Dataset class for bi_classifier
 class ClaDataset(Dataset):
     def __init__(self, max_seq_length, real_seq, fake_seq, mask_id):
         self.real_seq = self.unpadding(real_seq)

@@ -12,6 +12,7 @@ d_num_filters = [100, 200, 200, 200, 200, 100, 100, 100, 100, 100, 160, 160]
 d_dropout = 0.75
 d_num_class = 2
 
+
 class PretrainDataset(Dataset):
     def __init__(self, max_seq_length, user_seq, long_sequence, mask_p, mask_id, mode):
         self.user_seq = user_seq

@@ -8,6 +8,7 @@ import math
 import torch.nn.init as init
 import random
 
+
 class Generator(nn.Module):
 
     def __init__(self, embedding_dim, hidden_dim, vocab_size, max_seq_len, gpu=False, oracle_init=False):

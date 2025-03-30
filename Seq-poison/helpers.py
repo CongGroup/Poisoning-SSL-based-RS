@@ -2,6 +2,7 @@ import torch
 from torch.autograd import Variable
 from math import ceil
 
+
 def prepare_generator_batch(samples, start_letter=0, gpu=False):
     """
     Takes samples (a batch) and returns

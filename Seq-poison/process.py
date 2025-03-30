@@ -1,5 +1,3 @@
-
-
 from importlib.resources import read_binary
 
 

@@ -3,7 +3,7 @@ import generator
 import os
 
 CUDA = True
-
+# Hyperparameter Settings
 MAX_SEQ_LEN = 50
 START_LETTER = 0
 BATCH_SIZE = 32
