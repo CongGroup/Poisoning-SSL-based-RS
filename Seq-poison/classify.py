@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+
+# a simple network with convs structure
 class Classify(nn.Module):
 
     def __init__(self, num_classes, vocab_size, emb_dim, filter_sizes, num_filters, dropout):
