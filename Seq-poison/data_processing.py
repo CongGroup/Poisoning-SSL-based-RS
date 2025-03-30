@@ -6,6 +6,10 @@ from pandas.core.frame import DataFrame
 import tqdm
 import json
 
+"""
+Tool function for generating 5-core dataset
+"""
+
 def parse(path): # for Amazon
     g = gzip.open(path, 'r')
     for l in g:
