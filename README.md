@@ -13,9 +13,15 @@ Our model for fake user generating.
 #### datasets
 Original pre-processed user-item interaction records obtained by the data downloaded from [Google Drive](https://drive.google.com/drive/folders/1ahiLmzU7cGRPXf5qGMqtAChte2eYp9gI) (which is publicly available). 
 
-We use the “5-core” datasets as described in our paper.
+We use the "5-core" datasets as described in our paper. 
 
 #### Run
+Create "5-core" datasets:
+```
+python data_processing.py
+```
+You can also use these already processed datasets directly in __Seq-poison/dataset__
+
 Create bi-classifier:
   
 ```
