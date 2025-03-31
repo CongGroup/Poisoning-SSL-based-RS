@@ -3,7 +3,7 @@ This is the implementation code for paper 《Poisoning Self-supervised Learning 
 
 For each dataset, we generated fake users whose numbers are 1%, 2%, and 3% of real users.
 
-It is worth noting that, in the three original __Amazon__ datasets (__Beauty__, __Sports and Outdoors__, and __Toys and Games__), none of the users has multiple interactions with the same item, while in the *Yelp* dataset, users often interact with the same item multiple times.
+It is worth noting that, in the three original __Amazon__ datasets (__Beauty__, __Sports and Outdoors__, and __Toys and Games__), none of the users has multiple interactions with the same item, while in the __Yelp__ dataset, users often interact with the same item multiple times.
 Therefore, to ensure the stealthiness of our attack, when constructing the poisoning data of the __Amazon__ datasets, we let each fake user only interact with the target item once, while in __Yelp__, we allow each fake user to interact with the target item multiple times.
 For comparison, we also provide the poisoning data of the __Yelp__ dataset where each user interacts with the same item at most once.
 
