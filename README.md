@@ -1,5 +1,5 @@
 ### Poisoned_datasets
-This is the implementation code for paper 《Poisoning Self-supervised Learning Based Sequential Recommendations》 on ACM SIGIR 2023
+This is the implementation code for paper 《Poisoning Self-supervised Learning Based Sequential Recommendations》 on ACM SIGIR 2023 
 
 For each dataset, we generated fake users whose numbers are 1%, 2%, and 3% of real users.
 
